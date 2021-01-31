@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/wallpaperbetter.com_2560x1440.jpg') no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    font-family: monospace !important;
+    background-color:lightsteelblue;
+}
+
+.navbar {
+    background: url('images/checkmark.webp') no-repeat;
+    margin-bottom: 3rem;
+    background-color: #121212 !important;
+    height: 77px;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 33px;
+}
+
+input {
+    border: 2px solid;
+}
+
+h4{ 
+   font-size: 16px; 
+}
+.completed h4{
+    text-decoration: line-through;
+    color: #8d8d8d;
+}
+
+#error {
+    color: red;
+    padding-left: 4rem;
+}
+
+.btn-info:hover {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+small{
+    font-size: 18px;
+    position: relative;
+    left: -1rem;
+}
+

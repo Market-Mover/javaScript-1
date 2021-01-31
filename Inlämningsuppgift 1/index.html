@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  
+  <title>Form</title>
+
+</head>
+<body>
+  <!-- Formulär -->
+  <div class="container">
+    <div class="header">
+      <h2>Inlämningsuppgift 1</h2>
+    </div>
+    <form class="form" id="form">
+      <!-- Namn -->
+      <div class="form-control">
+        <lable>Namn:</lable>
+        <input type="text" id="namn" placeholder="">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error</small>
+      </div>
+       <!-- Namn -->
+       <!-- Efternamn -->
+      <div class="form-control">
+        <lable>Efternamn:</lable>
+        <input type="text" id="efternamn" placeholder="">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error</small>
+      </div>
+      <!-- Efternamn -->
+      <!-- Epost -->
+      <div class="form-control">
+        <lable>E-post:</lable>
+        <input type="email" id="email" placeholder="">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error</small>
+      </div>
+      <!-- Epost -->
+      <!-- Checkbox -->
+      <input class="checkbox" type="checkbox" type="text" required/> Jag godkänner 
+      <button type="submit">Submit</button>
+      <button class="reset" type="reset">Reset</button>
+    </form>
+  </div>
+  <!-- Formulär -->
+  <!-- Listan -->
+  <div class="list-container">
+    <div class="users" id="users">
+      <!-- Genereras via js -->
+    </div>
+  </div>
+  <!-- Listan -->
+
+
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
